@@ -1,3 +1,4 @@
+## Practive repo, not 
 ### List Aglorithm 
 <ul>
 <li> Quick sort </li>
@@ -17,3 +18,18 @@
   Linear
 </li>
 <ul>
+  
+### Design pattern
+
+<ul>
+<li>
+  Sington pattern
+</li>
+<li>
+  Strategy pattern
+</li>
+<li>
+  Observer pattern
+</li>
+<ul>
+ 
