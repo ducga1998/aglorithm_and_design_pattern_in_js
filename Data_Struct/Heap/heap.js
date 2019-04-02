@@ -12,6 +12,7 @@ class Heap {
   log() {
     console.log(this.heap)
   }
+
   changeKey = (index, value) => {
 
     let temp;
@@ -29,6 +30,7 @@ class Heap {
 
     }
   }
+
   heapify = (index) => {
     //  ok branch swap elements
     let temp
@@ -54,9 +56,7 @@ class Heap {
     this.heap.push(value)
     this.changeKey(this.heap.length - 1, value)
   }
-  extract() {
 
-  }
 
 }
 var heap = new Heap()
