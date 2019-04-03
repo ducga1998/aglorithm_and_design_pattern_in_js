@@ -3,8 +3,7 @@ class ObserverPattern {
     observer  = []
     push(ob){
         this.observer.push(ob)
-    }    
-    
+    }   
 }
 class Observer {
     notifi() {
