@@ -18,6 +18,7 @@ class HashTable {
   
     remove(key) {
       const hash = this.calculateHash(key);
+      console.log('hash',hash)
       if(this.values.hasOwnProperty(hash) && this.values[hash].hasOwnProperty(key)) {
         delete this.values[hash][key];
         this.numberOfValues--;
