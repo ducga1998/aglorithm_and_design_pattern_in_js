@@ -74,7 +74,7 @@ class Graph {
             }
         }
     
-BFS  =  (vector, callback) => {
+    BFS  =  (vector, callback) => {
         if(!this.vertices.indexOf(vector)){
             console.log('err')
         }
@@ -93,6 +93,7 @@ BFS  =  (vector, callback) => {
             }
        }
     }
+    
     traverseBFS(vertex, fn) {
         if (!this.vertices.indexOf(vertex)) {
             return console.log('Vertex not found')
